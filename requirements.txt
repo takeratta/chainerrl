@@ -4,7 +4,9 @@ fastcache; python_version<'3.2'
 funcsigs; python_version<'3.5'
 future
 gym>=0.7.3
-numpy>=1.10.4
+numpy>=1.22.2
 pillow
 scipy
 statistics; python_version<'3.4'
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
